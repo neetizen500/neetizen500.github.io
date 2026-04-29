@@ -21,124 +21,147 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" width="200px" class="img-fluid">
+                <h2>Curriculum</h2>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-
-                </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Acerca-de-mi">Educacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Mis-trabajos">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contacto">Contacto</a>
+                </li>
+            </ul>
 
             </div>
         </div>
     </nav>
 
-    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
-        <div class="container">
-            <div class="ms-auto col-12 col-md-7 ">
-                <h1 class="display-1 fw-bold my-5">
-                    Matando <br> Tiempo
-                </h1>
-                <p class="my-5">
-                    Ponderando el ocio 
-                </p>
-                <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
-                    <button class="btn btn-lg btn-info text-light">Contacto</button>
-                </div>
-            </div>
+    <header id="Hero-Section" class="py-5 mt-5">
+    <div class="container d-flex align-items-center gap-5">
+        
+        <div class="flex-shrink-0">
+        <img src="assets\img\bg-hero.jpg" alt="Foto de perfil"
+            class="rounded-circle"
+            style="width:600px; height:600px; object-fit:cover; border: 4px solid #dee2e6;">
         </div>
+
+        <div>
+        <h1 class="display-1 fw-bold my-3">
+            José Tomás <br> García Risco
+        </h1>
+        <h2>Ingeniero Civil Computacional</h2>
+        </div>
+    </div>
     </header>
 
 
     <section id="Acerca-de-mi" class="container text-center my-5">
 
 
-        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+        <h2 class="display-3 fw-bold my-4">Educacion</h2>
 
-        <p class="my-4">
-            Me gusta mi privacidad.
-        </p>
+        <section id="Educacion" class="py-5">
+        <div class="container">
+            <div class="d-flex flex-column gap-4">
 
-        <h3 class="display-8 fw-bold my-4">Algunos iconos</h2>
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <i class="fas fa-camera fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Cámara fotografica</h3>
+            <!-- Universidad -->
+            <div class="d-flex justify-content-between align-items-start">
+                <div class="text-start"> 
+                <h5 class="fw-bold mb-1">Universidad de O'Higgins</h5>
+                <p class="mb-0">Ingeniería Civil en Computación — Licenciado en Ciencias Computacionales</p>
+                <p class="text-muted mb-0">Rancagua, Chile</p>
+                </div>
+                <span class="text-muted text-nowrap ms-4">2019 – 2025</span>
             </div>
-            <div class="col-12 col-md-4">
-                <i class="fas fa-bullhorn fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Megafono</h3>
+
+            <hr class="my-1">
+
+            <!-- INACAP -->
+            <div class="d-flex justify-content-between align-items-start">
+                <div class="text-start"> 
+                <h5 class="fw-bold mb-1">INACAP</h5>
+                <p class="mb-0">Diplomado en Planificación Estratégica y Control de Gestión</p>
+                </div>
+                <span class="text-muted text-nowrap ms-4">Jun – Oct 2024</span>
             </div>
-            <div class="col-12 col-md-4">
-                <i class="far fa-map fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Mapa</h3>
+
+            <hr class="my-1">
+
+            <!-- Latinneg -->
+            <div class="d-flex justify-content-between align-items-start">
+                <div class="text-start"> 
+                <h5 class="fw-bold mb-1">Latinneg</h5>
+                <p class="mb-0">Curso SAP R/3 Usuario Integral</p>
+                </div>
+                <span class="text-muted text-nowrap ms-4">Oct – Nov 2025</span>
+            </div>
+
+            <hr class="my-1">
+
+            <!-- Cambridge -->
+            <div class="d-flex justify-content-between align-items-start">
+                <div class="text-start"> 
+                <h5 class="fw-bold mb-1">Cambridge English</h5>
+                <p class="mb-0">Cambridge English P.E.T — Inglés Avanzado C1</p>
+                </div>
+                <span class="text-muted text-nowrap ms-4">2016</span>
+            </div>
+
             </div>
         </div>
-    </section>
+        </section>
 
 
     <section id="Mis-trabajos" class="my-5 p-5 bg-info">
 
-        <h2 class="display-4 fw-bold text-center text-light mb-3">Platos Favoritos</h2>
+            <h2 class="display-4 fw-bold text-center text-light mb-3">Experiencia</h2>
+            <section id="Experiencia" class="py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-5">Experiencia</h2>
 
-        <div class="row">
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Asado</h5>
-                        <p class="card-text">
-                            Carne asada en la parrilla lentamente.
-                        </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
+        <div class="d-flex flex-column gap-4">
+
+        <!-- Agrosuper -->
+        <div class="d-flex justify-content-between align-items-start">
+            <div class="text-start">
+            <h5 class="fw-bold mb-1">Agrosuper — Oficina Central</h5>
+            <p class="mb-1">Pasantía — Gerencia Cadena de Suministros</p>
+            <p class="text-muted mb-2">Rancagua, Región de O'Higgins</p>
+            <ul class="mb-0">
+                <li>Automatización de reportes KPI en Power BI para métricas de desempeño de la cadena de suministros a nivel nacional e internacional.</li>
+                <li>Elaboración de informes de Capital de Trabajo con indicadores de desempeño operacional.</li>
+            </ul>
             </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Spaghetti Boloñesa</h5>
-                        <p class="card-text">
-                            Es un plato internacional popular que combina pasta espagueti con rica salsa de carne y tomate.
-                        </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Ceviche</h5>
-                        <p class="card-text">
-                            Plato de pescado o mariscos crudos, marinados en cítricos (lima/limón) junto con cebolla, ají y cilantro, famoso por su frescura y sabor intenso.
-                        </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
+            <span class="text-muted text-nowrap ms-4">Ene – May 2025</span>
         </div>
 
+        <hr class="my-1">
+
+        <!-- Codelco -->
+        <div class="d-flex justify-content-between align-items-start">
+            <div class="text-start">
+            <h5 class="fw-bold mb-1">Codelco Teniente Mina</h5>
+            <p class="mb-1">Práctica Profesional</p>
+            <p class="text-muted mb-2">Región de O'Higgins</p>
+            <ul class="mb-0">
+                <li>Desarrollo de digitalización del proceso de acopio y automatización de reportes KPI en Power BI para gestión de métricas de desempeño de la mina.</li>
+                <li>Elaboración de dashboards para el control de stock de piezas destinadas al mantenimiento de equipos.</li>
+            </ul>
+            </div>
+            <span class="text-muted text-nowrap ms-4">Ene – Mar 2024</span>
+        </div>
+
+        </div>
+    </div>
+    </section>
     </section>
 
 
@@ -147,31 +170,9 @@
 
         <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
 
-        <form>
-
-            <div class="form-group mb-4">
-                <label class="mb-2">Nombre</label>
-                <input class="form-control" placeholder="Nombre">
-            </div>
-
-            <div class="form-group mb-4">
-                <label class="mb-2">Correo electrónico</label>
-                <input class="form-control" placeholder="Correo electrónico" />
-            </div>
-
-
-            <div class="form-group">
-                <label class="mb-2">Mensaje</label>
-                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
-            </div>
-
-            <div class="my-3 text-end">
-                <button class="btn btn-info text-light">Enviar</button>
-            </div>
-
-
-
-        </form>
+        <p class="text-center ">Email: jose.tomas.garcia.risco@gmail.com</p>
+        <p class="text-center ">Telefeno: +56990610652</p>
+        <a href="portafolio.html">Portafolio</a>
 
     </section>
 
